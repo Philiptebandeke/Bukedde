@@ -19,6 +19,7 @@ package com.philip.utubeapi;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
+import com.philip.utubeapi.fragments.HomeFragment;
 
 import android.content.Intent;
 import android.widget.Toast;
@@ -52,5 +53,6 @@ public abstract class YouTubeFailureRecoveryActivity extends YouTubeBaseActivity
   }
 
   protected abstract YouTubePlayer.Provider getYouTubePlayerProvider();
+
 
 }

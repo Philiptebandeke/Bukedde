@@ -14,7 +14,15 @@
   limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
+    <array name="tab_name">
+        <item>Home</item>
+        <item>Search</item>
+        <item>Share</item>
+        <item>News</item>
+        <item>Profile</item>
+    </array>
+    <string name="app_name">Bukedde</string>
+    <string name="title_activity_main3">Main3Activity</string>
     <string name="youtube_api_demo">Bukedde</string>
 
     <string name="videowall_demo_name">Video Wall</string>
@@ -64,4 +72,8 @@
 
     <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="title_activity_main2">Bukedde</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

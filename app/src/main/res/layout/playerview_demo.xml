@@ -20,60 +20,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:layout_editor_absoluteY="27dp">
-  <!--
-  <android.support.constraint.ConstraintLayout
-            android:id="@+id/kj"
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-    <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="8dp"
-            android:orientation="vertical">
-    -->
-  <Button
-      android:id="@+id/livestream"
-      android:layout_width="0dp"
-      android:layout_height="48dp"
-      android:background="@android:color/holo_red_light"
-      android:text="livestream"
-      android:textColor="@android:color/background_light"
-      app:layout_constraintEnd_toStartOf="@+id/videos"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent" />
-
-  <Button
-      android:id="@+id/videos"
-      android:layout_width="0dp"
-      android:layout_height="48dp"
-      android:background="@android:color/holo_green_light"
-      android:text="videos"
-      app:layout_constraintEnd_toStartOf="@+id/playlists"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toEndOf="@+id/livestream"
-      tools:layout_editor_absoluteY="0dp" />
-
-  <Button
-      android:id="@+id/playlists"
-      android:layout_width="0dp"
-      android:layout_height="48dp"
-      android:background="@android:color/holo_green_light"
-      android:text="playlists"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toEndOf="@+id/videos"
-      tools:layout_editor_absoluteY="0dp" />
 
   <com.google.android.youtube.player.YouTubePlayerView
       android:id="@+id/youtube_view"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      app:layout_constraintTop_toBottomOf="@+id/livestream"
+
       tools:layout_editor_absoluteX="0dp" />
 
     <TextView

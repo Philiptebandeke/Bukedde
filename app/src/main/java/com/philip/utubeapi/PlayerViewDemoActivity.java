@@ -41,24 +41,7 @@ public class PlayerViewDemoActivity extends YouTubeFailureRecoveryActivity {
 
     YouTubePlayerView youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
     youTubeView.initialize(DeveloperKey.DEVELOPER_KEY, this);
-    Button videos =(Button) findViewById(R.id.videos);
-    videos.setOnClickListener(new View.OnClickListener(){
-      @Override
-      public void onClick(View view){
-        Intent videosIntent = new Intent(PlayerViewDemoActivity.this,VideoListDemoActivity.class);
-        startActivity(videosIntent);
-      }
 
-    });
-      Button playlists =(Button) findViewById(R.id.playlists);
-      playlists.setOnClickListener(new View.OnClickListener(){
-          @Override
-          public void onClick(View view){
-              Intent playlistsIntent = new Intent(PlayerViewDemoActivity.this,VideoWallDemoActivity.class);
-              startActivity(playlistsIntent);
-          }
-
-      });
 
   }
 
