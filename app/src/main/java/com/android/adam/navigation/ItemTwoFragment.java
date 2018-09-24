@@ -24,18 +24,33 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerFragment;
 import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 import com.google.android.youtube.player.YouTubePlayerView;
 import com.google.android.youtube.player.YouTubeThumbnailView;
+import com.google.android.youtube.player.YouTubeInitializationResult;
+import com.google.android.youtube.player.YouTubePlayer;
+import com.google.android.youtube.player.YouTubePlayer.OnInitializedListener;
+import com.google.android.youtube.player.YouTubePlayer.Provider;
+import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 
 public class ItemTwoFragment extends Fragment   {
+    private FragmentActivity myContext;
+
+    private YouTubePlayer YPlayer;
+    //MainActivity mainActivity = (MainActivity) getActivity();
+    private static final String YoutubeDeveloperKey = "xyz";
+    private static final int RECOVERY_DIALOG_REQUEST = 1;
+//   wW2Uw6v5kVc
     public static ItemTwoFragment newInstance() {
         ItemTwoFragment fragment = new ItemTwoFragment();
         return fragment;
@@ -44,9 +59,43 @@ public class ItemTwoFragment extends Fragment   {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        YouTubePlayerSupportFragment youTubePlayerFragment = YouTubePlayerSupportFragment.newInstance();
+        FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
+        transaction.add(R.id.youtube_fragment, youTubePlayerFragment).commit();
 
+        youTubePlayerFragment.initialize("AIzaSyCUaWxz9hHQpzzWSoH37D5vsrclyRpK29g", new OnInitializedListener() {
+//            @Override
+//            public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer player, boolean b) {
+//                mainActivity.youTubePlayer = player;
+//                player.loadVideo("wW2Uw6v5kVc");
 
+//                player.setOnFullscreenListener(new YouTubePlayer.OnFullscreenListener() {
+//                    @Override
+//                    public void onFullscreen(boolean b) {
+//                        mainActivity.isYouTubePlayerFullScreen = b;
+//                    }
+//                });
+//
+//            }
+            @Override
+            public void onInitializationSuccess(Provider arg0, YouTubePlayer youTubePlayer, boolean b) {
+                if (!b) {
+                    YPlayer = youTubePlayer;
+                  YPlayer.setFullscreen(false);
+                    YPlayer.loadVideo("wW2Uw6v5kVc");
+                    YPlayer.play();
                 }
+            }
+
+            @Override
+            public void onInitializationFailure(Provider arg0, YouTubeInitializationResult arg1) {
+                // TODO Auto-generated method stub
+
+            }
+        });
+
+    }
+
 
 
     @Override

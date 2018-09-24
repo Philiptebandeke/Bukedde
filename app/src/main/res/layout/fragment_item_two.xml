@@ -11,11 +11,12 @@
 
 
 
-    <fragment
-        android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+    <FrameLayout
         android:id="@+id/youtube_fragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible" />
     <TextView
         android:id="@+id/textView1000"
         android:layout_width="192dp"
@@ -34,7 +35,7 @@
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/youtube_player_view" />
+        app:layout_constraintTop_toBottomOf="@+id/youtube_fragment" />
 
     <ScrollView
         android:id="@+id/scrollView2"

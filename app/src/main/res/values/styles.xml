@@ -6,7 +6,8 @@
         <!--<item name="colorPrimary">#73bb00</item>-->
         <!--<item name="colorPrimaryDark">#73bb00</item>-->
         <!--<item name="colorAccent">#73bb00</item>-->
-        <item name="colorPrimary">#ff00ddff</item>
+        <!--<item name="colorPrimary">#ff00ddff</item>-->
+        <item name="colorPrimary">@android:color/holo_red_light</item>
         <item name="colorPrimaryDark">#ff0099cc</item>
         <item name="colorAccent">#3F51B5</item>
     </style>
