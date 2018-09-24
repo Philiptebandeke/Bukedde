@@ -1,6 +1,201 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Bukedde</string>
+    <string name="app_name22">Agataliiko Nfuufu</string>
+    <string name="aa1">Akadiriisa</string>
+    <string name="a12">Twogere</string>
+    <string name="a13">Agabuutikidde</string>
+    <string name="a14">Embaaga</string>
+    <string name="a15">Omuziki</string>
+    <string name="a16">Akazanyo</string>
+    <string name="a17">Yiga</string>
+    <string name="a18">Agomutuuntu</string>
+    <string name="a19">Ekyenkya</string>
+    <string name="a10">Abanoonya</string>
+    <string name="a111">Omulimi</string>
+    <string name="a112">Mwasuzemutya</string>
+    <string name="a113">Akadiriisa</string>
+    <string name="a114">Twogere</string>
+    <string name="a115">Agabuutikidde</string>
+    <string name="a116">Embaaga</string>
+    <string name="a117">Omuziki</string>
+    <string name="a118">Akazanyo</string>
+    <string name="a119">10.pm</string>
+    <string name="a120">9:30.pm</string>
+    <string name="a1b">8.pm</string>
+    <string name="a1c">7:45.pm</string>
+    <string name="a1d">5:15.pm</string>
+    <string name="a1e">4.pm</string>
+    <string name="a1f">3.pm</string>
+    <string name="a1g">1:35.pm</string>
+    <string name="a1h">12.pm</string>
+    <string name="a1i">10:50.am</string>
+    <string name="a1j">9.am</string>
+    <string name="a12k">7:20.am</string>
+    <string name="a1k">6.am</string>
+    <string name="a1l">400</string>
+    <string name="a1m">15</string>
+    <string name="a1n">70</string>
+    <string name="a1o">100</string>
+    <string name="a1p">250</string>
+    <string name="a1q">32</string>
+    <string name="a1r">28</string>
+    <string name="a1s">Bukedde</string>
+    <string name="a1t">Bukedde</string>
+    <string name="a1u">Bukedde</string>
+    <string name="a1v">Bukedde</string>
+    <string name="a1w">Bukedde</string>
+    <string name="a1x">Bukedde</string>
+    <string name="a1y">Bukedde</string>
+    <string name="a1aaa">Bukedde</string>
+
+    <string name="a1wq">Bukedde</string>
+    <string name="a1ds">Bukedde</string>
+    <string name="a1we">Bukedde</string>
+    <string name="a143">Bukedde</string>
+    <string name="a123">Bukedde</string>
+    <string name="a1asw">Bukedde</string>
+    <string name="a1wsd">Bukedde</string>
+    <string name="a1fd">Bukedde</string>
+    <string name="a1bn">Bukedde</string>
+    <string name="adx1">Bukedde</string>
+    <string name="a1xc">Bukedde</string>
+    <string name="a1zx">Bukedde</string>
+    <string name="a1tf">Bukedde</string>
+    <string name="a1dc">Bukedde</string>
+    <string name="a1sf">Bukedde</string>
+    <string name="a1es">Bukedde</string>
+    <string name="a1zcv">Bukedde</string>
+    <string name="a1szaw">Bukedde</string>
+    <string name="a1ert">Bukedde</string>
+    <string name="a1gds">Bukedde</string>
+    <string name="a1azd">Bukedde</string>
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
+    <!--<string name="a1">Bukedde</string>-->
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+    <string name="playerview_text">This is a YouTubePlayerView!</string>
+    <string name="playerfragment_text">This is a YouTubePlayerFragment!</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
 </resources>
